@@ -17,9 +17,9 @@ g.fillRect(380,170,20,10);
 g.fillRect(450,170,20,10);
 
 g.setColor (Color.red);
-int c [] = {300,430,540};
-int d [] = {100,40,100};
-g.fillPolygon (c, d, 3);
+int a [] = {300,430,540};
+int b [] = {100,40,100};
+g.fillPolygon (a, b, 3);
 
 
 addWindowListener(new WindowAdapter(){
