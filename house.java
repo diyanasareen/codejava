@@ -13,7 +13,6 @@ g.setColor(Color.red);
 g.fillRect(380,140,20,10);
 g.fillRect(450,140,20,10);
 
-
 g.fillRect(380,170,20,10);
 g.fillRect(450,170,20,10);
 
