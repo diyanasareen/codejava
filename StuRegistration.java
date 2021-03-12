@@ -35,7 +35,7 @@ P.add(t2);
 	    c.setBounds(150,150, 90,90);  
         c.add("Information Technology");  
         c.add("Computer Science");   
-		P.add(l3);
+        P.add(l3);
         P.add(c); 
 		
 l4=new Label("Address:");
@@ -65,16 +65,16 @@ Checkbox c3=new Checkbox("Others",false);
 P.add(l8);
 c1.setBounds  (20,50,160,30);
 P.add(c1);
-c2.setBounds (20,90,160,30);
+c2.setBounds (20,70,160,30);
 P.add(c2);
-c3.setBounds (20,130,160,30);
+c3.setBounds (20,90,160,30);
 P.add(c3);
 
 Button b=new Button("Submit");
 b.setBounds(10,40,50,30);
 f.add(b);
 
-P.setLayout(new GridLayout(5,2,3,3));
+P.setLayout(new GridLayout(5,2));
 
 f.setContentPane(P);
 f.setVisible(true);
